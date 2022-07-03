@@ -8,8 +8,8 @@ python3 -m venv ~/zwiss/.venv
 source ~/zwiss/.venv/bin/activate
 pip install west
 west init -m https://github.com/beriberikix/zwiss ~/zwiss
-cd ~/swiss
+cd ~/zwiss
 west update
 west zephyr-export
-pip install -r ~/swiss/zephyr/scripts/requirements.txt
+pip install -r ~/zwiss/zephyr/scripts/requirements.txt
 ```
