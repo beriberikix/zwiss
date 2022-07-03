@@ -14,3 +14,17 @@ manifest:
       revision: main
       import:
         path-prefix: deps
+        name-allowlist:
+          - zephyr
+          - cmsis
+          - hal_atmel
+          - hal_espressif
+          - hal_gigadevice
+          - hal_infineon
+          - hal_microchip
+          - hal_nordic
+          - hal_nxp
+          - hal_rpi_pico
+          - hal_silabs
+          - hal_st
+          - hal_stm32
